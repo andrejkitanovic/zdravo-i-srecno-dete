@@ -8,7 +8,7 @@ import Swiper from "../../components/Swiper/Swiper";
 import ListaVesti from "../../components/ListaVesti/ListaVesti";
 
 const Pocetna = (props) => {
-  const [udarneVesti, setUdarneVesti] = useState([
+  const [udarneVesti, ] = useState([
     {},
     {},
     {},
@@ -20,7 +20,7 @@ const Pocetna = (props) => {
     {},
     {},
   ]);
-  const [sporedneVesti, setSporedneVesti] = useState([
+  const [sporedneVesti, ] = useState([
     {},
     {},
     {},
@@ -37,7 +37,7 @@ const Pocetna = (props) => {
     {},
   ]);
   const [prikaziSporedneVesti, setPrikaziSporedneVesti] = useState(7);
-  const [popularnaPretrazivanja, setPopularnaPretrazivanja] = useState([
+  const [popularnaPretrazivanja, ] = useState([
     "Kašalj kod dece",
     "Pelenski osip kod dece",
     "Kašalj kod dece",
