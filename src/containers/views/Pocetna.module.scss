@@ -1,0 +1,60 @@
+.Pocetna{
+    padding-top:70px;
+
+    .naslov {
+        display:flex;
+        justify-content: left;
+        align-items: center;
+
+        h2{
+            font-weight: bold;
+            font-size:62px;
+            margin:30px 20px 30px 52px;
+        }
+    }
+   
+
+    .ONama {
+        margin:15vh 0;
+        position: relative;
+        color:white;
+        background-position: center!important;
+        background-repeat: no-repeat!important;
+        background-size: cover!important;
+        height: 100vh;
+
+        p{
+            position: absolute;
+            margin:0 5%;
+            bottom: 10%;
+            font-size:40px;
+            font-weight: bold;
+            letter-spacing: 2px;
+
+        }
+    }
+
+    .PopularnaPretrazivanja{
+        background:#E5E5E5;
+        padding-top:10vh;
+        margin-top:15vh;
+        padding-bottom: 10vh;
+
+        ul{
+            padding-top:2%;
+            padding-bottom:2%;
+            padding-left:5%;
+            margin:0;
+            li{
+                font-size:24px;
+                font-weight: bold;
+                padding:15px 0;
+                cursor:pointer;
+
+                &:hover{
+                    text-decoration:underline
+                }
+            }
+        }
+    }
+}

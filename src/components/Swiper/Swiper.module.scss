@@ -1,0 +1,23 @@
+.Swiper {
+  width: 100%;
+//   overflow-y: visible;
+
+  .Slide {
+    height: 71vh;
+
+    .image {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    //   overflow: hidden;
+    //   background: #358ED7;
+
+      img {
+        position: absolute;
+        height: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
