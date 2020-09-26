@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import classes from "./Pocetna.module.scss";
+import  "./Pocetna.scss";
 
-import LogoPart from "../../assets/images/Logo-part.png";
-import Onama from "../../assets/images/Onama.png";
+import LogoPart from "../../../assets/images/Logo-part.png";
+// import Onama from "../../../assets/images/Onama.png";
 
-import Swiper from "../../components/Swiper/Swiper";
-import ListaVesti from "../../components/ListaVesti/ListaVesti";
+import Swiper from "../../../components/Pocetna/Swiper/Swiper";
+import ListaVesti from "../../../components/Pocetna/ListaVesti/ListaVesti";
 
 const Pocetna = (props) => {
   const [udarneVesti, ] = useState([
@@ -55,8 +55,8 @@ const Pocetna = (props) => {
   ));
 
   return (
-    <div className={classes.Pocetna}>
-      <div className={classes.naslov}>
+    <div className="Pocetna">
+      <div className="naslov">
         <h2>Clanci lekara i vesti</h2>
         <img src={LogoPart} alt="Zdravo i srecno dete" />
       </div>
@@ -68,8 +68,8 @@ const Pocetna = (props) => {
         povecajPrikaz={povecajPrikazSporednihVesti}
       />
 
-      <div className={classes.ONama} style={{ background: `url(${Onama})` }}>
-        <div className={classes.naslov}>
+      <div className="ONama">
+        <div className="naslov">
           <h2>O nama</h2>
           <img src={LogoPart} alt="Zdravo i srecno dete" />
         </div>
@@ -81,8 +81,8 @@ const Pocetna = (props) => {
         </p>
       </div>
 
-      <div className={classes.PopularnaPretrazivanja}>
-        <div className={classes.naslov}>
+      <div className="PopularnaPretrazivanja">
+        <div className="naslov">
           <h2>Popularna pretrazivanja</h2>
           <img src={LogoPart} alt="Zdravo i srecno dete" />
         </div>

@@ -1,12 +1,12 @@
 import React from 'react'
-import classes from './Header.module.scss'
+import './Header.scss'
 
-import Logo from '../../assets/images/Logo.png'
+import Logo from '../../../assets/images/Logo.png'
 import Navigation from '../Navigation/Navigation'
 
 const header = () => {
     return(
-        <div className={classes.Header}>
+        <div className="Header">
             <img src={Logo} alt="Logo"/>
             <Navigation />
         </div>
