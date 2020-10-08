@@ -1,0 +1,44 @@
+.ProizvodView {
+    padding-top: 60px;
+  
+    .naslov {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding-bottom: 30px;
+  
+      .Podeli {
+        margin-right: 50px;
+      }
+  
+      &:after {
+        content: "";
+        position: absolute;
+        width: 95%;
+        height: 100%;
+        top: 0;
+        left: 2.5%;
+        border-bottom: 1px solid #48D2A0;
+        pointer-events: none;
+      }
+    }
+  
+    .content {
+      width: 90%;
+      margin: 0 auto;
+  
+      .tekst {
+        h3 {
+          font-size: 24px;
+          margin:40px 0;
+        }
+  
+        p {
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+  

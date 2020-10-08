@@ -1,0 +1,34 @@
+.Pretrazi {
+    display:flex;
+    width: 90%;
+    height: 48px;
+    background: #f3f3f3;
+    align-items: center;
+    border-radius: 39px;
+    margin:0 auto;
+    border:2px solid transparent;
+    transition: .2s;
+
+    svg{
+        height: 30px;
+        width: 30px;
+        margin-left: 25px;
+        margin-right: 50px;
+    }
+
+    input{
+        height: 100%;
+        background: transparent;
+        border:none;
+        font-size: 24px;
+        width: 92%;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    &.active{
+        border: 2px solid #358ED7;
+    }
+}

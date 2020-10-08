@@ -5,8 +5,12 @@
     justify-content: space-evenly;
     padding:0 10%;
 
+    img {
+        max-width: 400px;
+    }
+
     h2{
-        font-size: 60px;
+        font-size: 50px;
         color:#34495E;
         margin:0;
     }
@@ -51,7 +55,8 @@
                 }
             }
 
-            button{
+            .button{
+                display: inline-block;
                 width: 250px;
                 height: 40px;
                 color:#fff;
@@ -62,14 +67,14 @@
                 font-size: 17px;
                 cursor: pointer;
                 transition: .2s;
+                text-decoration: none;
+                text-align: center;
+                line-height: 40px;
 
                 &:focus{
                     outline: none;
                 }
 
-                &:hover{
-                    color:#34495E;
-                }
             }
         }
     }

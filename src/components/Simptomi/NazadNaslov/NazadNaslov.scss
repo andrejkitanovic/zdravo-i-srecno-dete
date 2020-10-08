@@ -1,0 +1,62 @@
+.NazadNaslov {
+  display: flex;
+  align-items: center;
+
+  h1{
+      font-size: 50px;
+  }
+  
+  .nazad {
+    position: relative;
+    width: 65px;
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 45px;
+    cursor: pointer;
+
+    &.plava{
+        span {
+            background:#358ED7;
+        }
+  
+    }
+
+    &.crvena{
+        span {
+            background:#F54B5E;
+        }
+    
+    }
+
+    &.zelena{
+        span {
+            background:#48D2A0;
+        }
+    }
+
+    span {
+      position: absolute;
+      display: inline-block;
+      width: 45%;
+      height: 6px;
+      border-radius: 3px;
+
+      &:nth-child(1) {
+        top: 30%;
+        transform: rotate(-45deg);
+      }
+
+      &:nth-child(2) {
+        width: 90%;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &:nth-child(3) {
+        bottom: 30%;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}

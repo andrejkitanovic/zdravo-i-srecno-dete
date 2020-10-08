@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import  "./Pocetna.scss";
+import React, { useState , useEffect } from "react";
+import "./Pocetna.scss";
 
 import LogoPart from "../../../assets/images/Logo-part.png";
 // import Onama from "../../../assets/images/Onama.png";
@@ -8,19 +8,8 @@ import Swiper from "../../../components/Pocetna/Swiper/Swiper";
 import ListaVesti from "../../../components/Pocetna/ListaVesti/ListaVesti";
 
 const Pocetna = (props) => {
-  const [udarneVesti, ] = useState([
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-  ]);
-  const [sporedneVesti, ] = useState([
+  const [udarneVesti] = useState([{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]);
+  const [sporedneVesti] = useState([
     {},
     {},
     {},
@@ -37,7 +26,7 @@ const Pocetna = (props) => {
     {},
   ]);
   const [prikaziSporedneVesti, setPrikaziSporedneVesti] = useState(7);
-  const [popularnaPretrazivanja, ] = useState([
+  const [popularnaPretrazivanja] = useState([
     "Kašalj kod dece",
     "Pelenski osip kod dece",
     "Kašalj kod dece",
@@ -45,6 +34,10 @@ const Pocetna = (props) => {
     "Kašalj kod dece",
     "Pelenski osip kod dece",
   ]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const povecajPrikazSporednihVesti = () => {
     return setPrikaziSporedneVesti((p) => p + 4);
@@ -57,7 +50,7 @@ const Pocetna = (props) => {
   return (
     <div className="Pocetna">
       <div className="naslov">
-        <h2>Clanci lekara i vesti</h2>
+        <h2>Članci lekara i vesti</h2>
         <img src={LogoPart} alt="Zdravo i srecno dete" />
       </div>
 
