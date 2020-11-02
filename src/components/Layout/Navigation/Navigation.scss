@@ -1,13 +1,12 @@
 .Navigation {
   float: right;
-  margin-top: 25px;
-  margin-right: 5px;
+  margin-top: 20px;
 
   a {
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 0 20px;
+    margin-left: 40px;
     color: black;
     padding-bottom: 5px;
     font-size: 15px;
@@ -29,16 +28,15 @@
       left: 0;
     }
 
-    &.active{
-        color:#358ed7;
+    &.active {
+      color: #358ed7;
     }
 
-    &.active:after{
-        width: 100%;
+    &.active:after {
+      width: 100%;
       left: 0;
     }
   }
-
 }
 
 @media (max-width: 1024px) {

@@ -1,17 +1,15 @@
 .Clanci {
-    padding-top: 60px;
+  padding-top: 60px;
+  cursor: pointer;
+  max-width: 1200px;
+  margin: 0 auto;
 
-    .naslov{
-        font-size: 50px;
-        margin:33.5px 0;
-        margin-left: 40px;
-    } 
-  
-    .podela {
-      display: grid;
-      grid-template-columns: 7fr 3fr;
-  
-      
-    }
+  .naslov {
+    font-size: 38px;
   }
-  
+
+  .podela {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+  }
+}

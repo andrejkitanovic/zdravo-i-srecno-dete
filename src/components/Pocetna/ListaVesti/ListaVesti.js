@@ -2,7 +2,6 @@ import React from "react";
 import classes from "./ListaVesti.module.scss";
 
 import slikaVest from "../../../assets/images/vest.png";
-// import Parents from '../../assets/images/parents.png'
 
 const listaVesti = (props) => {
   const listaVesti = props.vesti.slice(0, props.prikazi).map((vest) => (

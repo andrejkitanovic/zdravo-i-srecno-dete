@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   src: url('./fonts/Lato-Regular.ttf');
-}
+} */
 
 /* @font-face {
   font-family: 'Lato';
@@ -21,7 +21,7 @@ html{
 body {
   margin: 0;
   padding:0;
-  font-family: 'Lato';
+  font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

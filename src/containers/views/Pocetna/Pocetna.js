@@ -1,8 +1,7 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Pocetna.scss";
 
 import LogoPart from "../../../assets/images/Logo-part.png";
-// import Onama from "../../../assets/images/Onama.png";
 
 import Swiper from "../../../components/Pocetna/Swiper/Swiper";
 import ListaVesti from "../../../components/Pocetna/ListaVesti/ListaVesti";
@@ -21,11 +20,8 @@ const Pocetna = (props) => {
     {},
     {},
     {},
-    {},
-    {},
-    {},
   ]);
-  const [prikaziSporedneVesti, setPrikaziSporedneVesti] = useState(7);
+  const [prikaziSporedneVesti, setPrikaziSporedneVesti] = useState(5);
   const [popularnaPretrazivanja] = useState([
     "Kašalj kod dece",
     "Pelenski osip kod dece",

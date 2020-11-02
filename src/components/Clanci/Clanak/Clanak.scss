@@ -1,12 +1,13 @@
 .Clanak {
   position: relative;
-  width: 80%;
-  margin: 30px auto;
+  max-width: 680px;
+  margin: 30px 0;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  height: 400px;
+  min-height: 400px;
   border-radius: 20px;
-  padding: 15px 5%;
-  transition: .2s;
+  padding: 30px 50px;
+  transition: 0.2s;
+  
 
   .doktor {
     display: flex;
@@ -19,7 +20,6 @@
 
     .odoktoru {
       margin-left: 20px;
-
       display: flex;
       flex-direction: column;
       height: 120px;
@@ -27,7 +27,7 @@
 
       h4 {
         margin: 0;
-        font-size: 24px;
+        font-size: 22px;
       }
       p {
         margin: 0;
@@ -37,7 +37,7 @@
   }
 
   h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   p {
@@ -51,10 +51,5 @@
     float: right;
     bottom: 20px;
     right: 50px;
-  }
-
-  &:hover{
-      transform: scale(1.05);
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
   }
 }
